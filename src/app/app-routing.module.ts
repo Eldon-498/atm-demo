@@ -6,6 +6,7 @@ import { LoginPageComponent } from './login-page/login-page.component'; // Adjus
 const routes: Routes = [
   { path: 'sign-in', component: SignInComponent },
   { path: 'login', component: LoginPageComponent },
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
 ];
 
 @NgModule({
