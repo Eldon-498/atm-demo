@@ -12,7 +12,7 @@ export class LoginPageComponent {
 
   submitForm(): void {
     if (this.customerName && this.email && this.customerId) {
-      // Perform login logic here
+      
       console.log('Form submitted');
       console.log('Customer Name:', this.customerName);
       console.log('Email:', this.email);
